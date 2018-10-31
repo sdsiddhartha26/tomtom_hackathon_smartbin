@@ -1,0 +1,18 @@
+1.) install xamp/wamp 
+2.) copy all webservices in to httdoc 
+3.) change the connection variable (C:\xampp\htdocs\tom_tom\core\database\connection.php) username & password - 
+
+$dsn = 'mysql:host=localhost; dbname=tomtom_smartegg';
+	$user = '[dbuser]';
+	$password = '[dbpwd]';
+
+4.) run the database script (sql) script - tomtom.sql
+5.) install ngnork - to get it used for out side the wifi 
+     incase your using local host - 192.168 seriess in the android app kindly remove https in service address 
+6.) aurdino file and circuit are also attached 
+     install aurdion upload the file to aurdino 
+
+7.) install android- client app and connect it to HC-05 of smartbin 
+8.) it will read the status of smartbin 
+
+9.) same thing need to bee done for collector app
